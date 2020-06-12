@@ -13,6 +13,7 @@ Reach multiple goals with the correct given orientation throughout the map throu
 Model virutal objects with markers and deploy with ROS
 
 # Project Requirements
+ROS Kinetic
 Gazebo >= 7.0  
 
 # Project Setup
