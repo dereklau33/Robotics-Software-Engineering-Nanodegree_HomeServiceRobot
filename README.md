@@ -1,4 +1,4 @@
-# Robotics-Software-Engineering-Nanodegree_HomeServiceRobot
+# Robotics Software Engineering Nanodegree: Home Service Robot
 
 # Goal
 In this project, I combined previous aspects of localization and mapping with navigation and path planning to create a robot that can autonomously map an unknown environment and navigate and plan its own path to pick up and drop off virtual objects. 
