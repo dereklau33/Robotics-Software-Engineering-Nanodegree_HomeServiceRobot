@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/workspace/catkin_ws/src/pick_objects/src/pick_objects.cpp
+ros/ros.h
+-
+move_base_msgs/MoveBaseAction.h
+-
+actionlib/client/simple_action_client.h
+-
+tf/tf.h
+-
+
