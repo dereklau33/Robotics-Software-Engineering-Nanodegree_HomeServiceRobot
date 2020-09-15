@@ -30,9 +30,9 @@ $ mkdir -p ~/home/workspace/
 $ cd /home/workspace/
 ```   
 
-Copy code from previous project WhereAmI:
+Clone repository:
 ```bash
-$ git clone https://github.com/dereklau33/Robotics-Software-Engineering-Nanodegree_MapMyWorld.git
+$ git clone https://github.com/dereklau33/Robotics-Software-Engineering-Nanodegree_HomeServiceRobot
 ```
 
 Build package:  
