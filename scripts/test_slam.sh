@@ -1,5 +1,5 @@
 #!/bin/sh
-path_catkin_ws="/home/workspace/catkin_ws"
+path_catkin_ws="~/catkin_ws"
 
 #launch turtlebot_world.launch
 xterm -e "cd ${path_catkin_ws} && source devel/setup.bash && roslaunch turtlebot_gazebo turtlebot_world.launch" &
