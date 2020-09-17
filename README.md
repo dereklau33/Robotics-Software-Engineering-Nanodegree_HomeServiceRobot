@@ -26,8 +26,9 @@ $ sudo apt-get update && sudo apt-get upgrade -y
 # Run Instructions
 Create a workspace:    
 ```bash
-$ mkdir -p ~/home/workspace/
-$ cd /home/workspace/
+$ mkdir -p ~/catkin_ws/src
+$ cd /catkin_ws/src
+$ catkin_init_workspace
 ```   
 
 Clone repository:
@@ -37,9 +38,15 @@ $ git clone https://github.com/dereklau33/Robotics-Software-Engineering-Nanodegr
 
 Build package:  
 ```bash
-$ cd ..
+$ cd ~/catkin_ws
 $ source devel/setup.bash
 $ catkin_make
+```
+
+To run available scripts: 
+```bash
+$ cd /src/scripts
+$ chmod +x filename
 ```
 
 To test the localization and mapping (AMCL) aspect of the project, launch the shell script file:
